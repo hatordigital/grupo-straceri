@@ -3876,3 +3876,41 @@ body.is-menu-visible #menu {
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible;
 }
+
+button.btnGoTop {
+  align-items: center;
+  background: #284b66;
+  border: 0;
+  border-color: transparent;
+  border-radius: 8px;
+  bottom: 40px;
+  box-shadow: 0 0 0 transparent;
+  color: #fff;
+  display: none;
+  height: 50px;
+  justify-content: center;
+  padding: 0;
+  position: fixed;
+  right: 40px;
+  outline: none;
+  opacity: 0;
+  transition: all 0.7s ease-in;
+  width: 50px;
+  z-index: 12;
+}
+button.btnGoTop.show {
+  opacity: 1;
+  display: flex;
+}
+button.btnGoTop:hover,
+button.btnGoTop:active {
+  background: rgba(40, 75, 102, 0.7);
+  border: 0;
+}
+button.btnGoTop:focus {
+  border: 0;
+}
+button.btnGoTop i {
+  color: #fff;
+  width: 30px;
+}

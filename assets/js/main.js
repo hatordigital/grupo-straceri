@@ -42,4 +42,25 @@
 				side: 'right'
 			});
 
+		$(window).on('scroll', function() {
+			if($(window).scrollTop() > 1100) {
+				$('#btnTop').addClass(
+					'show'
+				); 
+			} else{
+				$('#btnTop').removeClass(
+					'show'
+				); 
+			}
+		});
+
+		$('#btnTop').on('click', function() {
+				$("html, body").animate( 
+					{ scrollTop: "0" }, 
+				100)
+			} 
+		);
+		
+		
+
 })(jQuery);
