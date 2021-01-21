@@ -2780,7 +2780,7 @@ ul.icons li .icon:before {
   overflow: hidden;
   position: absolute;
   right: 50%;
-  width: auto;
+  width: 100%;
 }
 #banner:before {
   -moz-transition: opacity 3s ease;
