@@ -390,7 +390,7 @@ textarea {
 }
 
 a {
-  color: #284b66;
+  color: #274b65;
 }
 
 strong,
@@ -531,8 +531,8 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  box-shadow: inset 0 0 0 1px #284b66;
-  color: #284b66 !important;
+  box-shadow: inset 0 0 0 1px #274b65;
+  color: #274b65 !important;
 }
 input[type="submit"]:hover:active,
 input[type="reset"]:hover:active,
@@ -547,7 +547,7 @@ input[type="button"].primary,
 button.primary,
 .button.primary {
   box-shadow: none;
-  background-color: #284b66;
+  background-color: #274b65;
   color: #ffffff !important;
 }
 input[type="submit"].primary:hover,
@@ -555,7 +555,7 @@ input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #284b66;
+  background-color: #274b65;
   box-shadow: none;
 }
 input[type="submit"].primary:hover:active,
@@ -563,7 +563,7 @@ input[type="reset"].primary:hover:active,
 input[type="button"].primary:hover:active,
 button.primary:hover:active,
 .button.primary:hover:active {
-  background-color: #284b66;
+  background-color: #274b65;
 }
 
 /* Form */
@@ -738,8 +738,8 @@ input[type="search"]:focus,
 input[type="url"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #284b66;
-  box-shadow: 0 0 0 1px #284b66;
+  border-color: #274b65;
+  box-shadow: 0 0 0 1px #274b65;
 }
 
 select {
@@ -761,14 +761,14 @@ input[type="radio"] + label:before {
 }
 input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
-  background-color: #284b66;
-  border-color: #284b66;
+  background-color: #274b65;
+  border-color: #274b65;
   color: #ffffff;
 }
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  border-color: #284b66;
-  box-shadow: 0 0 0 1px #284b66;
+  border-color: #274b65;
+  box-shadow: 0 0 0 1px #274b65;
 }
 
 ::-webkit-input-placeholder {
@@ -1326,7 +1326,7 @@ table.alt tbody tr td {
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
 }
 .testimonials .content .credit strong {
-  color: #284b66;
+  color: #274b65;
 }
 
 /* Actions */
@@ -2570,7 +2570,7 @@ ul.icons li .icon:before {
   color: #ffffff;
 }
 #banner a {
-  color: #284b66;
+  color: #274b65;
 }
 #banner strong,
 #banner b {
@@ -2608,8 +2608,8 @@ ul.icons li .icon:before {
 #banner input[type="button"]:hover,
 #banner button:hover,
 #banner .button:hover {
-  box-shadow: inset 0 0 0 1px #284b66;
-  color: #284b66 !important;
+  box-shadow: inset 0 0 0 1px #274b65;
+  color: #274b65 !important;
 }
 #banner input[type="submit"]:hover:active,
 #banner input[type="reset"]:hover:active,
@@ -2624,7 +2624,7 @@ ul.icons li .icon:before {
 #banner button.primary,
 #banner .button.primary {
   box-shadow: none;
-  background-color: #284b66;
+  background-color: #274b65;
   color: #ffffff !important;
 }
 #banner input[type="submit"].primary:hover,
@@ -2632,7 +2632,7 @@ ul.icons li .icon:before {
 #banner input[type="button"].primary:hover,
 #banner button.primary:hover,
 #banner .button.primary:hover {
-  background-color: #284b66;
+  background-color: #274b65;
   box-shadow: none;
 }
 #banner input[type="submit"].primary:hover:active,
@@ -2640,7 +2640,7 @@ ul.icons li .icon:before {
 #banner input[type="button"].primary:hover:active,
 #banner button.primary:hover:active,
 #banner .button.primary:hover:active {
-  background-color: #284b66;
+  background-color: #274b65;
 }
 #banner label {
   color: #ffffff;
@@ -2664,8 +2664,8 @@ ul.icons li .icon:before {
 #banner input[type="url"]:focus,
 #banner select:focus,
 #banner textarea:focus {
-  border-color: #284b66;
-  box-shadow: 0 0 0 1px #284b66;
+  border-color: #274b65;
+  box-shadow: 0 0 0 1px #274b65;
 }
 #banner select {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.25)' /%3E%3C/svg%3E");
@@ -2685,14 +2685,14 @@ ul.icons li .icon:before {
 }
 #banner input[type="checkbox"]:checked + label:before,
 #banner input[type="radio"]:checked + label:before {
-  background-color: #284b66;
-  border-color: #284b66;
+  background-color: #274b65;
+  border-color: #274b65;
   color: #ffffff;
 }
 #banner input[type="checkbox"]:focus + label:before,
 #banner input[type="radio"]:focus + label:before {
-  border-color: #284b66;
-  box-shadow: 0 0 0 1px #284b66;
+  border-color: #274b65;
+  box-shadow: 0 0 0 1px #274b65;
 }
 #banner ::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.4) !important;
@@ -2736,7 +2736,7 @@ ul.icons li .icon:before {
   box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025);
 }
 #banner .testimonials .content .credit strong {
-  color: #284b66;
+  color: #274b65;
 }
 #banner > .inner {
   -moz-transform: scale(1);
@@ -2803,7 +2803,7 @@ ul.icons li .icon:before {
   z-index: 1;
 }
 #banner:after {
-  background: linear-gradient(135deg, #284b66 0%, #111111 74%);
+  background: linear-gradient(135deg, #274b65 0%, #111111 74%);
   content: " ";
   display: block;
   height: 100%;
@@ -2873,7 +2873,7 @@ body.is-preload #banner:before {
 
 /* CTA */
 #cta {
-  background-color: #284b66;
+  background-color: #274b65;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
   background-image: linear-gradient(
@@ -2948,7 +2948,7 @@ body.is-preload #banner:before {
 #cta .button.primary {
   box-shadow: none;
   background-color: #ffffff;
-  color: #284b66 !important;
+  color: #274b65 !important;
 }
 #cta input[type="submit"].primary:hover,
 #cta input[type="reset"].primary:hover,
@@ -2995,7 +2995,7 @@ body.is-preload #banner:before {
 }
 #cta select option {
   color: rgba(255, 255, 255, 0.75);
-  background-color: #284b66;
+  background-color: #274b65;
 }
 #cta input[type="checkbox"] + label,
 #cta input[type="radio"] + label {
@@ -3010,7 +3010,7 @@ body.is-preload #banner:before {
 #cta input[type="radio"]:checked + label:before {
   background-color: #ffffff;
   border-color: #ffffff;
-  color: #284b66;
+  color: #274b65;
 }
 #cta input[type="checkbox"]:focus + label:before,
 #cta input[type="radio"]:focus + label:before {
@@ -3051,15 +3051,15 @@ body.is-preload #banner:before {
   border-color: rgba(255, 255, 255, 0.25);
 }
 #cta .highlights .content {
-  background: #284b66;
+  background: #274b65;
   box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025);
 }
 #cta .testimonials .content {
-  background: #284b66;
+  background: #274b65;
   box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025);
 }
 #cta .testimonials .content .credit strong {
-  color: #284b66;
+  color: #274b65;
 }
 #cta .inner {
   position: relative;
@@ -3083,7 +3083,7 @@ body.is-preload #banner:before {
   color: #ffffff;
 }
 #footer a {
-  color: #284b66;
+  color: #274b65;
 }
 #footer strong,
 #footer b {
@@ -3121,8 +3121,8 @@ body.is-preload #banner:before {
 #footer input[type="button"]:hover,
 #footer button:hover,
 #footer .button:hover {
-  box-shadow: inset 0 0 0 1px #284b66;
-  color: #284b66 !important;
+  box-shadow: inset 0 0 0 1px #274b65;
+  color: #274b65 !important;
 }
 #footer input[type="submit"]:hover:active,
 #footer input[type="reset"]:hover:active,
@@ -3137,7 +3137,7 @@ body.is-preload #banner:before {
 #footer button.primary,
 #footer .button.primary {
   box-shadow: none;
-  background-color: #284b66;
+  background-color: #274b65;
   color: #ffffff !important;
 }
 #footer input[type="submit"].primary:hover,
@@ -3145,7 +3145,7 @@ body.is-preload #banner:before {
 #footer input[type="button"].primary:hover,
 #footer button.primary:hover,
 #footer .button.primary:hover {
-  background-color: #284b66;
+  background-color: #274b65;
   box-shadow: none;
 }
 #footer input[type="submit"].primary:hover:active,
@@ -3153,7 +3153,7 @@ body.is-preload #banner:before {
 #footer input[type="button"].primary:hover:active,
 #footer button.primary:hover:active,
 #footer .button.primary:hover:active {
-  background-color: #284b66;
+  background-color: #274b65;
 }
 #footer label {
   color: #ffffff;
@@ -3177,8 +3177,8 @@ body.is-preload #banner:before {
 #footer input[type="url"]:focus,
 #footer select:focus,
 #footer textarea:focus {
-  border-color: #284b66;
-  box-shadow: 0 0 0 1px #284b66;
+  border-color: #274b65;
+  box-shadow: 0 0 0 1px #274b65;
 }
 #footer select {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.25)' /%3E%3C/svg%3E");
@@ -3198,14 +3198,14 @@ body.is-preload #banner:before {
 }
 #footer input[type="checkbox"]:checked + label:before,
 #footer input[type="radio"]:checked + label:before {
-  background-color: #284b66;
-  border-color: #284b66;
+  background-color: #274b65;
+  border-color: #274b65;
   color: #ffffff;
 }
 #footer input[type="checkbox"]:focus + label:before,
 #footer input[type="radio"]:focus + label:before {
-  border-color: #284b66;
-  box-shadow: 0 0 0 1px #284b66;
+  border-color: #274b65;
+  box-shadow: 0 0 0 1px #274b65;
 }
 #footer ::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.4) !important;
@@ -3249,14 +3249,14 @@ body.is-preload #banner:before {
   box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025);
 }
 #footer .testimonials .content .credit strong {
-  color: #284b66;
+  color: #274b65;
 }
 #footer a {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
 }
 #footer a:hover {
-  color: #284b66;
+  color: #274b65;
 }
 #footer .content {
   display: -moz-flex;
@@ -3481,7 +3481,7 @@ body:before {
   color: #ffffff;
 }
 #heading a {
-  color: #284b66;
+  color: #274b65;
 }
 #heading strong,
 #heading b {
@@ -3519,8 +3519,8 @@ body:before {
 #heading input[type="button"]:hover,
 #heading button:hover,
 #heading .button:hover {
-  box-shadow: inset 0 0 0 1px #284b66;
-  color: #284b66 !important;
+  box-shadow: inset 0 0 0 1px #274b65;
+  color: #274b65 !important;
 }
 #heading input[type="submit"]:hover:active,
 #heading input[type="reset"]:hover:active,
@@ -3535,7 +3535,7 @@ body:before {
 #heading button.primary,
 #heading .button.primary {
   box-shadow: none;
-  background-color: #284b66;
+  background-color: #274b65;
   color: #ffffff !important;
 }
 #heading input[type="submit"].primary:hover,
@@ -3543,7 +3543,7 @@ body:before {
 #heading input[type="button"].primary:hover,
 #heading button.primary:hover,
 #heading .button.primary:hover {
-  background-color: #284b66;
+  background-color: #274b65;
   box-shadow: none;
 }
 #heading input[type="submit"].primary:hover:active,
@@ -3551,7 +3551,7 @@ body:before {
 #heading input[type="button"].primary:hover:active,
 #heading button.primary:hover:active,
 #heading .button.primary:hover:active {
-  background-color: #284b66;
+  background-color: #274b65;
 }
 #heading label {
   color: #ffffff;
@@ -3575,8 +3575,8 @@ body:before {
 #heading input[type="url"]:focus,
 #heading select:focus,
 #heading textarea:focus {
-  border-color: #284b66;
-  box-shadow: 0 0 0 1px #284b66;
+  border-color: #274b65;
+  box-shadow: 0 0 0 1px #274b65;
 }
 #heading select {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.25)' /%3E%3C/svg%3E");
@@ -3596,14 +3596,14 @@ body:before {
 }
 #heading input[type="checkbox"]:checked + label:before,
 #heading input[type="radio"]:checked + label:before {
-  background-color: #284b66;
-  border-color: #284b66;
+  background-color: #274b65;
+  border-color: #274b65;
   color: #ffffff;
 }
 #heading input[type="checkbox"]:focus + label:before,
 #heading input[type="radio"]:focus + label:before {
-  border-color: #284b66;
-  box-shadow: 0 0 0 1px #284b66;
+  border-color: #274b65;
+  box-shadow: 0 0 0 1px #274b65;
 }
 #heading ::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.4) !important;
@@ -3647,10 +3647,10 @@ body:before {
   box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025);
 }
 #heading .testimonials .content .credit strong {
-  color: #284b66;
+  color: #274b65;
 }
 #heading:before {
-  background: linear-gradient(135deg, #284b66 0%, #111111 74%);
+  background: linear-gradient(135deg, #274b65 0%, #111111 74%);
   content: " ";
   display: block;
   height: 100%;
@@ -3724,7 +3724,7 @@ body:before {
   color: #ffffff;
 }
 #menu a {
-  color: #284b66;
+  color: #274b65;
 }
 #menu strong,
 #menu b {
@@ -3762,8 +3762,8 @@ body:before {
 #menu input[type="button"]:hover,
 #menu button:hover,
 #menu .button:hover {
-  box-shadow: inset 0 0 0 1px #284b66;
-  color: #284b66 !important;
+  box-shadow: inset 0 0 0 1px #274b65;
+  color: #274b65 !important;
 }
 #menu input[type="submit"]:hover:active,
 #menu input[type="reset"]:hover:active,
@@ -3778,7 +3778,7 @@ body:before {
 #menu button.primary,
 #menu .button.primary {
   box-shadow: none;
-  background-color: #284b66;
+  background-color: #274b65;
   color: #ffffff !important;
 }
 #menu input[type="submit"].primary:hover,
@@ -3786,7 +3786,7 @@ body:before {
 #menu input[type="button"].primary:hover,
 #menu button.primary:hover,
 #menu .button.primary:hover {
-  background-color: #284b66;
+  background-color: #274b65;
   box-shadow: none;
 }
 #menu input[type="submit"].primary:hover:active,
@@ -3794,7 +3794,7 @@ body:before {
 #menu input[type="button"].primary:hover:active,
 #menu button.primary:hover:active,
 #menu .button.primary:hover:active {
-  background-color: #284b66;
+  background-color: #274b65;
 }
 #menu > ul {
   margin: 0 0 1rem 0;
@@ -3879,7 +3879,7 @@ body.is-menu-visible #menu {
 
 button.btnGoTop {
   align-items: center;
-  background: #284b66;
+  background: #274b65;
   border: 0;
   border-color: transparent;
   border-radius: 8px;
