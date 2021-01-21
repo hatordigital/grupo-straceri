@@ -2557,8 +2557,8 @@ ul.icons li .icon:before {
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 35rem !important;
-  min-height: 35rem;
+  height: 40rem !important;
+  min-height: 40rem;
   overflow: hidden;
   position: relative;
   text-align: center;
