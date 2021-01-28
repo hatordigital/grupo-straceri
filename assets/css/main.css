@@ -2557,7 +2557,7 @@ ul.icons li .icon:before {
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 40rem !important;
+  height: 45rem !important;
   min-height: 40rem;
   overflow: hidden;
   position: relative;
@@ -2780,7 +2780,7 @@ ul.icons li .icon:before {
   overflow: hidden;
   position: absolute;
   right: 50%;
-  width: auto;
+  width: 100%;
 }
 #banner:before {
   -moz-transition: opacity 3s ease;
