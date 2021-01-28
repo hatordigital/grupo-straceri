@@ -3887,17 +3887,18 @@ button.btnGoTop {
   box-shadow: 0 0 0 transparent;
   color: #fff;
   display: none;
-  height: 50px;
+  height: 65px;
   justify-content: center;
   padding: 0;
   position: fixed;
-  right: 40px;
+  right: 106px;
   outline: none;
   opacity: 0;
   transition: all 0.7s ease-in;
-  width: 50px;
+  width: 65px;
   z-index: 12;
 }
+
 button.btnGoTop.show {
   opacity: 1;
   display: flex;
@@ -3910,7 +3911,68 @@ button.btnGoTop:active {
 button.btnGoTop:focus {
   border: 0;
 }
-button.btnGoTop i {
+button.btnGoTop i.icon {
   color: #fff;
-  width: 30px;
+  font-size: 20px;
+}
+button.btnGoTop i.icon::before {
+  margin: 0 auto;
+}
+
+a.btnWhats {
+  align-items: center;
+  background: #25d366;
+  border: 0;
+  border-color: transparent;
+  border-radius: 8px;
+  bottom: 40px;
+  box-shadow: 0 0 0 transparent;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  padding: 0;
+  position: fixed;
+  right: 30px;
+  outline: none;
+  transition: all 0.7s ease-in;
+  text-decoration: none;
+  width: 65px;
+  z-index: 12;
+}
+
+a.btnWhats:hover,
+a.btnWhats:active {
+  background: rgba(37, 211, 101, 0.6);
+  border: 0;
+}
+a.btnWhats:focus {
+  border: 0;
+}
+a.btnWhats i.icon {
+  color: #fff;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 600px) {
+  button.btnGoTop {
+    bottom: 78px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+  }
+  button.btnGoTop i.icon {
+    font-size: 18px;
+  }
+
+  a.btnWhats {
+    bottom: 20px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+  }
+  a.btnWhats i.icon {
+    font-size: 24px;
+  }
 }
