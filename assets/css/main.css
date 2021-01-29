@@ -2537,7 +2537,7 @@ ul.icons li .icon:before {
 #banner {
   -ms-flex-align: center;
   -ms-flex-pack: center;
-  background-color: #111111;
+  /* background-color: #111111; */
   color: rgba(255, 255, 255, 0.5);
   -moz-align-items: center;
   -webkit-align-items: center;
@@ -2791,19 +2791,19 @@ ul.icons li .icon:before {
   -webkit-transition-delay: 1.25s;
   -ms-transition-delay: 1.25s;
   transition-delay: 1.25s;
-  background: #111111;
+  /* background: #111111; */
   content: "";
   display: block;
   height: 100%;
   left: 0;
-  opacity: 0.45;
+  opacity: 1;
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 1;
 }
 #banner:after {
-  background: linear-gradient(135deg, #274b65 0%, #111111 74%);
+  /* background: linear-gradient(135deg, #274b65 0%, #111111 74%); */
   content: " ";
   display: block;
   height: 100%;
@@ -2819,10 +2819,29 @@ ul.icons li .icon:before {
   height: 30vh !important;
   min-height: 30vh;
 }
-@media screen and (max-width: 1280px) {
-  #banner video {
-    display: none;
+@media screen and (max-width: 1279px) {
+  #banner {
+    min-height: 25rem;
+    height: 30rem !important;
   }
+  /* #banner video {
+    display: none;
+  } */
+  #banner h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  #banner p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  #banner {
+    height: 25rem !important;
+  }
+  /* #banner video {
+    display: none;
+  } */
   #banner h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -2833,7 +2852,7 @@ ul.icons li .icon:before {
 }
 @media screen and (max-width: 736px) {
   #banner {
-    height: auto !important;
+    height: 12rem !important;
     min-height: 0;
     padding: 4rem 2rem 4rem 2rem;
   }
@@ -2877,8 +2896,8 @@ body.is-preload #banner:before {
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
   background-image: linear-gradient(
-      rgba(206, 27, 40, 0.25),
-      rgba(206, 27, 40, 0.25)
+      rgba(39, 75, 101, 0.25),
+      rgba(39, 75, 101, 0.25)
     ),
     url(../../images/cta01.jpg);
   background-position: bottom;
