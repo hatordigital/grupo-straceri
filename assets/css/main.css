@@ -2551,13 +2551,12 @@ ul.icons li .icon:before {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("../../images/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 45rem !important;
+  height: 50rem !important;
   min-height: 40rem;
   overflow: hidden;
   position: relative;
@@ -2782,6 +2781,9 @@ ul.icons li .icon:before {
   right: 50%;
   width: 100%;
 }
+#banner video.mobile {
+  display: none;
+}
 #banner:before {
   -moz-transition: opacity 3s ease;
   -webkit-transition: opacity 3s ease;
@@ -2822,7 +2824,7 @@ ul.icons li .icon:before {
 @media screen and (max-width: 1279px) {
   #banner {
     min-height: 25rem;
-    height: 30rem !important;
+    height: 35rem !important;
   }
   /* #banner video {
     display: none;
@@ -2839,9 +2841,12 @@ ul.icons li .icon:before {
   #banner {
     height: 25rem !important;
   }
-  /* #banner video {
+  #banner video.desktop {
     display: none;
-  } */
+  }
+  #banner video.mobile {
+    display: block;
+  }
   #banner h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
