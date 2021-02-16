@@ -3979,6 +3979,30 @@ a.btnWhats i.icon {
   font-size: 32px;
 }
 
+.inner .logoEmpresas {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: -2.4rem auto 5rem;
+}
+
+.inner .logoEmpresas img {
+  max-width: 150px;
+  width: 100%;
+}
+
+.inner .logoQuemSomos {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: -2.4rem auto 5rem;
+}
+
+.inner .logoQuemSomos img {
+  max-width: 150px;
+  width: 100%;
+}
+
 @media screen and (max-width: 600px) {
   button.btnGoTop {
     bottom: 78px;
@@ -3999,4 +4023,21 @@ a.btnWhats i.icon {
   a.btnWhats i.icon {
     font-size: 24px;
   }
+
+  .inner .logoEmpresas {
+    margin: 1rem auto 2.5rem;
+  }
+
+  .inner .logoEmpresas img {
+    max-width: 120px;
+  }
+
+  .inner .logoQuemSomos {
+    margin: 1rem auto 2.5rem;
+  }
+
+  .inner .logoQuemSomos img {
+    max-width: 120px;
+  }
+
 }
