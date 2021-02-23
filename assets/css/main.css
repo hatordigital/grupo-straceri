@@ -4003,6 +4003,10 @@ a.btnWhats i.icon {
   width: 100%;
 }
 
+.highlights .content img.imgSize {
+  max-width: 120px;
+}
+
 @media screen and (max-width: 600px) {
   button.btnGoTop {
     bottom: 78px;
