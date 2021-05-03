@@ -3089,6 +3089,11 @@ body.is-preload #banner:before {
   position: relative;
   z-index: 3;
 }
+#cta .inner p {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto 16px;
+}
 @media screen and (max-width: 980px) {
   #cta {
     background-attachment: scroll;
