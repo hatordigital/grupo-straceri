@@ -1,10 +1,12 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+
 <html lang="pt">
     <head>
     	<title>Grupo Straceri</title>
-        <meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content="" />
+			<meta charset="UTF-8" />
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+			<meta name="description" content="" />
 	    <meta name="keywords" content="" />
 
 	    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
@@ -78,6 +80,7 @@
 					<a class="hide" href="#empresas">Empresas</a>
 					<a class="hide" href="#cta">Quem somos</a>
 					<a class="hide" href="#parceiros">Parceiros</a>
+					<a class="hide" href="#contatos">Fale conosco</a>
 					<a href="#menu"></a>
 				</nav>
 			</header>
@@ -89,6 +92,7 @@
 					<li><a href="#empresas">Empresas</a></li>
 					<li><a href="#cta">Quem somos</a></li>
 					<li><a href="#parceiros">Parceiros</a></li>
+					<li><a href="#contatos">Fale conosco</a></li>
 				</ul>
 			</nav>
 
@@ -357,26 +361,26 @@
 					<form action="">
 
 						<div class="field">
-							<label for="">Nome completo</label>
-							<input placeholder="Seu nome completo" type="text">
+							<label for="inputName">Nome completo</label>
+							<input required autocapitalize="on" placeholder="Seu nome completo" name="inputName" id="inputName" type="text">
 						</div>
 
 						<div class="field">
-							<label for="">E-mail</label>
-							<input placeholder="seuemail@email.com" type="email">
+							<label for="inputEmail">E-mail</label>
+							<input required id="inputEmail" placeholder="seuemail@email.com" name="inputEmail" type="email">
 						</div>
 
 						<div class="field">
-							<label for="">Telefone</label>
-							<input placeholder="(00) 00000-0000" type="text">
+							<label for="inputPhone">Telefone</label>
+							<input required id="inputPhone" name="inputPhone" maxlength="15" placeholder="(00) 00000-0000" type="text">
 						</div>
 
 						<div class="field">
-							<label for="">Motivo do contato</label>
-							<textarea placeholder="Seguros, FIDCS, Consórcios, Contabilidade, etc" rows="4"></textarea>
+							<label for="inputContactReason">Motivo do contato</label>
+							<textarea required id="inputContactReason" name="inputContactReason" placeholder="Seguros, FIDCS, Consórcios, Contabilidade, etc" rows="4"></textarea>
 						</div>
 
-						<button>
+						<button type="submit" id="sendContact">
 							Solicitar contato
 						</button>
 					</form>
@@ -435,12 +439,13 @@
 				<i class="icon fa-whatsapp"></i>
 			</a>
 
-		<!-- Scripts -->
+			<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/contactForm.js"></script>
 
 	</body>
 </html>
