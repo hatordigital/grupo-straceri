@@ -66,6 +66,9 @@
 	    <link rel="icon" type="image/png" href="./images/favicon.png" sizes="192x192">
 
 	    <link rel="stylesheet" href="assets/css/main.css" />
+
+			<link rel="stylesheet" href="assets/css/toastr.min.css">
+			
 	</head>
 	
 	<body class="is-preload">
@@ -381,7 +384,10 @@
 						</div>
 
 						<button type="submit" id="sendContact">
-							Solicitar contato
+							<div id="buttonText">
+								Solicitar contato 
+							</div>
+							<div id="loading" class="lds-dual-ring"></div>
 						</button>
 					</form>
 				</div>
@@ -449,6 +455,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/toastr.min.js"></script>
 			<script src="assets/js/contactForm.js"></script>
 
 	</body>

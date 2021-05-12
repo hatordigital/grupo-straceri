@@ -3903,6 +3903,32 @@ div.contact form button {
   font-size: 18px;
 }
 
+div.contact .lds-dual-ring {
+  display: none;
+  width: 40px;
+  height: 40px;
+}
+div.contact .lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 4px;
+  border-radius: 50%;
+  border: 3px solid #444444;
+  border-color: #444444 transparent #444444 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media screen and (max-width: 600px) {
   button.btnGoTop {
     bottom: 78px;

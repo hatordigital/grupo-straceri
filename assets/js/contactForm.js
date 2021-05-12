@@ -2,6 +2,8 @@ const inputName = document.getElementById('inputName');
 const inputEmail = document.getElementById('inputEmail');
 const inputPhone = document.getElementById('inputPhone');
 const inputReason = document.getElementById('inputContactReason');
+const buttonText = document.getElementById('buttonText');
+const loading = document.getElementById('loading');
 
 function phoneFormatted() {
   const phoneFormatted = inputPhone.value
@@ -15,6 +17,23 @@ function phoneFormatted() {
 
 inputPhone.onkeyup = phoneFormatted;
 
+toastr.options = {
+  "debug": false,
+  "newestOnTop": false,
+  "progressBar": false,
+  "positionClass": "toast-top-right",
+  "preventDuplicates": false,
+  "onclick": null,
+  "showDuration": "300",
+  "hideDuration": "1000",
+  "timeOut": "5000",
+  "extendedTimeOut": "1000",
+  "showEasing": "swing",
+  "hideEasing": "linear",
+  "showMethod": "fadeIn",
+  "hideMethod": "fadeOut"
+}
+
 function submitContact(event) {
   event.preventDefault();
 
@@ -23,14 +42,33 @@ function submitContact(event) {
   const phone = inputPhone.value;
   const reason = inputReason.value;
 
-  //iniciar loading
+
+  buttonText.style.display = 'none';
+
+  loading.style.display = 'inline-block'
 
   fetch(`https://us-central1-hator-grupo-straceri.cloudfunctions.net/sendMail?email=${email}&client=${client}&phone=${phone}&reason=${reason}`)
   .then(() => {
-    //finalizar loading;
+
+    inputName.value = '';
+    inputEmail.value = '';
+    inputPhone.value = '';
+    inputReason.value = '';
+
+    loading.style.display = 'none'
+    buttonText.style.display = 'block';
+
+    toastr.success('Contato enviado com sucesso!', {timeOut: 8000})
     // exibir algo falando que deu certo;
   }).catch(() => {
-    //finalizar loading;
-    // exibir algo falando que deu errado;
+    inputName.value = '';
+    inputEmail.value = '';
+    inputPhone.value = '';
+    inputReason.value = '';
+    
+    loading.style.display = 'none'
+    buttonText.style.display = 'block';
+
+    toastr.error('Não foi possível enviar o contato.', {timeOut: 8000})
   })
 }
