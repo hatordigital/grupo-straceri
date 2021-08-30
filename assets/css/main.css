@@ -962,15 +962,22 @@ table.alt tbody tr td {
 .highlights .content {
   border-radius: 4px;
   height: 100%;
-  padding: 2.4rem;
+  padding: 2.6rem 1.8rem 2rem;
   text-align: center;
 }
 .highlights .content img {
-  max-width: 90px;
+  max-width: 135px;
   margin-bottom: 24px;
 }
 .highlights .content h3 {
   margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.highlights .content p {
+  color: #424242;
+  font-weight: 500;
+  font-size: 16px;
 }
 .highlights .content .icon {
   font-size: 5rem;
