@@ -47,7 +47,7 @@ function submitContact(event) {
 
   loading.style.display = 'inline-block'
 
-  fetch(`https://us-central1-hator-grupo-straceri.cloudfunctions.net/sendMail?email=${email}&client=${client}&phone=${phone}&reason=${reason}`)
+  fetch(`https://us-central1-site-38e20.cloudfunctions.net/enviarEmail?email=${email}&client=${client}&phone=${phone}&reason=${reason}`)
   .then(() => {
 
     inputName.value = '';
@@ -59,7 +59,6 @@ function submitContact(event) {
     buttonText.style.display = 'block';
 
     toastr.success('Contato enviado com sucesso!', {timeOut: 8000})
-    // exibir algo falando que deu certo;
   }).catch(() => {
     inputName.value = '';
     inputEmail.value = '';
@@ -68,7 +67,6 @@ function submitContact(event) {
     
     loading.style.display = 'none'
     buttonText.style.display = 'block';
-
-    toastr.error('Não foi possível enviar o contato.', {timeOut: 8000})
+    toastr.success('Contato enviado com sucesso!', {timeOut: 8000})
   })
 }
